@@ -47,7 +47,6 @@
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
-		<MauiImage Update="Resources\Images\dotnet_bot.png" Resize="True" BaseSize="300,185" />
 
 		<!-- Custom Fonts -->
 		<MauiFont Include="Resources\Fonts\*" />
@@ -57,9 +56,147 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\alice.jpg" />
+	  <None Remove="Resources\Images\avatar.jpg" />
+	  <None Remove="Resources\Images\barbie.jpg" />
+	  <None Remove="Resources\Images\branquelas.jpg" />
+	  <None Remove="Resources\Images\casamonstro.jpg" />
+	  <None Remove="Resources\Images\cidade.jpg" />
+	  <None Remove="Resources\Images\cinco.jpg" />
+	  <None Remove="Resources\Images\desaparecimento.jpg" />
+	  <None Remove="Resources\Images\desastre.jpg" />
+	  <None Remove="Resources\Images\enrolados.jpg" />
+	  <None Remove="Resources\Images\eradogelo.jpg" />
+	  <None Remove="Resources\Images\extra.jpg" />
+	  <None Remove="Resources\Images\garfield.jpg" />
+	  <None Remove="Resources\Images\humano.jpg" />
+	  <None Remove="Resources\Images\hush.jpg" />
+	  <None Remove="Resources\Images\jumanji.jpg" />
+	  <None Remove="Resources\Images\madagascar.jpg" />
+	  <None Remove="Resources\Images\mal1.jpg" />
+	  <None Remove="Resources\Images\mal2.jpg" />
+	  <None Remove="Resources\Images\mal3.jpg" />
+	  <None Remove="Resources\Images\mortais.jpg" />
+	  <None Remove="Resources\Images\onda.jpg" />
+	  <None Remove="Resources\Images\plebeia.jpg" />
+	  <None Remove="Resources\Images\porto.jpg" />
+	  <None Remove="Resources\Images\reilao.jpeg" />
+	  <None Remove="Resources\Images\scooby.jpg" />
+	  <None Remove="Resources\Images\silencio.jpg" />
+	  <None Remove="Resources\Images\sol.jpg" />
+	  <None Remove="Resources\Images\tdsmenosvc.jpg" />
+	  <None Remove="Resources\Images\tuba.jpg" />
+	  <None Remove="Resources\Images\velozes.jpg" />
+	  <None Remove="Resources\Images\velozes10.jpg" />
+	  <None Remove="Resources\Images\vingadores.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="filmes\alice.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\avatar.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\barbie.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\branquelas.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\casamonstro.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\cidade.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\cinco.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\desaparecimento.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\desastre.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\enrolados.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\eradogelo.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\extra.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\garfield.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\humano.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\hush.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\jumanji.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\madagascar.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\mal1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\mal2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\mal3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\mortais.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\onda.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\plebeia.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\porto.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\reilao.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\scooby.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\silencio.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\sol.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\tdsmenosvc.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\tuba.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\velozes.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\velozes10.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\vingadores.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>
