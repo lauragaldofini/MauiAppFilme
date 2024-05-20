@@ -60,6 +60,7 @@
 	  <None Remove="Resources\Images\avatar.jpg" />
 	  <None Remove="Resources\Images\barbie.jpg" />
 	  <None Remove="Resources\Images\branquelas.jpg" />
+	  <None Remove="Resources\Images\carandiru.jpg" />
 	  <None Remove="Resources\Images\casamonstro.jpg" />
 	  <None Remove="Resources\Images\cidade.jpg" />
 	  <None Remove="Resources\Images\cinco.jpg" />
@@ -73,6 +74,7 @@
 	  <None Remove="Resources\Images\hush.jpg" />
 	  <None Remove="Resources\Images\jumanji.jpg" />
 	  <None Remove="Resources\Images\madagascar.jpg" />
+	  <None Remove="Resources\Images\mae.jpg" />
 	  <None Remove="Resources\Images\mal1.jpg" />
 	  <None Remove="Resources\Images\mal2.jpg" />
 	  <None Remove="Resources\Images\mal3.jpg" />
@@ -85,6 +87,7 @@
 	  <None Remove="Resources\Images\silencio.jpg" />
 	  <None Remove="Resources\Images\sol.jpg" />
 	  <None Remove="Resources\Images\tdsmenosvc.jpg" />
+	  <None Remove="Resources\Images\tropadeelite.jpg" />
 	  <None Remove="Resources\Images\tuba.jpg" />
 	  <None Remove="Resources\Images\velozes.jpg" />
 	  <None Remove="Resources\Images\velozes10.jpg" />
@@ -195,6 +198,30 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="filmes\vingadores.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Resources\categorias\animacao.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Resources\categorias\aventura.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Resources\categorias\comedia.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Resources\categorias\drama.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Resources\categorias\ficcaocientifica.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Resources\categorias\romance.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Resources\categorias\suspense.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Resources\categorias\terror.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

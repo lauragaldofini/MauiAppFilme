@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppFilme.Resources.categorias.animacao"
+             title="animacao">
+    <VerticalStackLayout>
+        <ScrollView>
+            <Grid RowDefinitions="300, 300, 300"
+              ColumnDefinitions="*,*"
+              Padding="5">
+
+
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" 
+                         Source="alice.jpg" x:Name="btnalicepaisdasmaravilhas"
+                         Clicked="btnalicepaisdasmaravilhas_Clicked"/>
+
+
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" 
+                         Source="onda.jpg" x:Name="btntadandoonda"
+                         Clicked="btntadandoonda_Clicked"/>
+
+
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" 
+                         Source="scooby.jpg" x:Name="btnscoobydoo"
+                         Clicked="btnscoobydoo_Clicked"/>
+
+
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" 
+                         Source="reilao.jpg" x:Name="btnreileao"
+                         Clicked="btnreileao_Clicked"/>
+            </Grid>
+        </ScrollView>
+    </VerticalStackLayout>
+</ContentView>
