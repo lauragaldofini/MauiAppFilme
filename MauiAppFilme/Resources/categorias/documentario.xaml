@@ -1,34 +1,33 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppFilme.Resources.categorias.suspense"
              Title="suspense">
     <VerticalStackLayout>
-        <ScrollView>
+    <ScrollView>
         <Grid RowDefinitions="300, 300, 300"
               ColumnDefinitions="*,*"
               Padding="5">
 
             <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" 
-                         Source="fuja.jpg" x:Name="btnfuja"
-                         Clicked="btnfuja_Clicked"/>
+                         Source="carandiru.jpg" x:Name="btncarandiru"
+                         Clicked="btncarandiru_Clicked"/>
 
 
             <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" 
-                         Source="hush.jpg" x:Name="btnhush"
-                         Clicked="btnhush_Clicked"/>
+                         Source="1917.jpg" x:Name="btn1917"
+                         Clicked="btn1917_Clicked"/>
 
 
             <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" 
-                         Source="silencio.jpg" x:Name="btnsilencio"
-                         Clicked="btnsilencio_Clicked"/>
+                         Source="assassinos.jpg" x:Name="btnassassinos"
+                         Clicked="btnassassinos_Clicked"/>
 
 
             <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" 
-                         Source="coraline.jpg" x:Name="btncoraline"
-                         Clicked="btncoraline_Clicked"/>
-            
-             </Grid>
-        </ScrollView>
+                         Source="front.jpg" x:Name="btnfront"
+                         Clicked="btnfront_Clicked"/>
+
+        </Grid>
+    </ScrollView>
     </VerticalStackLayout>
 </ContentView>

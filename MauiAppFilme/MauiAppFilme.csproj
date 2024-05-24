@@ -56,7 +56,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\1917.jpg" />
 	  <None Remove="Resources\Images\alice.jpg" />
+	  <None Remove="Resources\Images\assassinos.jpg" />
 	  <None Remove="Resources\Images\avatar.jpg" />
 	  <None Remove="Resources\Images\barbie.jpg" />
 	  <None Remove="Resources\Images\branquelas.jpg" />
@@ -69,6 +71,7 @@
 	  <None Remove="Resources\Images\enrolados.jpg" />
 	  <None Remove="Resources\Images\eradogelo.jpg" />
 	  <None Remove="Resources\Images\extra.jpg" />
+	  <None Remove="Resources\Images\front.jpg" />
 	  <None Remove="Resources\Images\garfield.jpg" />
 	  <None Remove="Resources\Images\humano.jpg" />
 	  <None Remove="Resources\Images\hush.jpg" />
@@ -81,14 +84,18 @@
 	  <None Remove="Resources\Images\mortais.jpg" />
 	  <None Remove="Resources\Images\onda.jpg" />
 	  <None Remove="Resources\Images\plebeia.jpg" />
+	  <None Remove="Resources\Images\porta.jpg" />
 	  <None Remove="Resources\Images\porto.jpg" />
 	  <None Remove="Resources\Images\reilao.jpeg" />
 	  <None Remove="Resources\Images\scooby.jpg" />
 	  <None Remove="Resources\Images\silencio.jpg" />
+	  <None Remove="Resources\Images\sogra.jpg" />
 	  <None Remove="Resources\Images\sol.jpg" />
+	  <None Remove="Resources\Images\sortudo.jpg" />
 	  <None Remove="Resources\Images\tdsmenosvc.jpg" />
 	  <None Remove="Resources\Images\tropadeelite.jpg" />
 	  <None Remove="Resources\Images\tuba.jpg" />
+	  <None Remove="Resources\Images\ultimohomem.jpg" />
 	  <None Remove="Resources\Images\velozes.jpg" />
 	  <None Remove="Resources\Images\velozes10.jpg" />
 	  <None Remove="Resources\Images\vingadores.jpg" />
@@ -98,6 +105,12 @@
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Resources\categorias\nacional.xaml.cs">
+	    <DependentUpon>nacional.xaml</DependentUpon>
+	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
@@ -200,6 +213,9 @@
 	  <MauiXaml Update="filmes\vingadores.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Resources\categorias\nacional.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Resources\categorias\animacao.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -209,10 +225,16 @@
 	  <MauiXaml Update="Resources\categorias\comedia.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Resources\categorias\documentario.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Resources\categorias\drama.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Resources\categorias\ficcaocientifica.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Resources\categorias\guerra.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Resources\categorias\romance.xaml">
