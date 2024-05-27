@@ -28,7 +28,7 @@
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" 
                          Source="porto.jpg" x:Name="btnportoseguro"
                          Clicked="btnportoseguro_Clicked"/>
-
+            </Grid>
         </ScrollView>
     </VerticalStackLayout>
 </ContentView>

@@ -1,8 +1,8 @@
 namespace MauiAppFilme.Resources.categorias;
 
-public partial class acional : ContentPage
+public partial class nacional : ContentPage
 {
-	public acional()
+	public nacional()
 	{
 		InitializeComponent();
 	}
