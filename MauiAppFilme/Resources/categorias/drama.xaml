@@ -12,7 +12,7 @@
 
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" 
                          Source="sol.jpg" x:Name="btnsoldameianoite"
-                         Clicked="btnsoldameianoite_Clicked"/>
+                         Clicked="btnsoldameianoite_Clicked_1"/>
 
 
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" 

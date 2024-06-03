@@ -10,7 +10,7 @@
 
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" 
                          Source="velozes.jpg" x:Name="btnvelozesefuriosos"
-                         Clicked="btnvelozesefuriosos_Clicked"/>
+                         Clicked="btnvelozesefuriosos_Clicked_1"/>
 
 
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" 

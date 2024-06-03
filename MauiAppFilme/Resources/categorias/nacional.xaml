@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiAppFilme.Resources.categorias.suspense"
-             Title="suspense">
+             x:Class="MauiAppFilme.Resources.categorias.nacional"
+             Title="nacional">
     <VerticalStackLayout>
         <ScrollView>
             <Grid RowDefinitions="300, 300, 300"
@@ -11,7 +11,7 @@
 
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" 
                          Source="mae.jpg" x:Name="btnmae"
-                         Clicked="btnfuja_Clicked"/>
+                         Clicked="btnmae_Clicked"/>
 
 
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" 
@@ -21,7 +21,7 @@
 
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" 
                          Source="porta.jpg" x:Name="btnporta"
-                         Clicked="btnporta_Clicked"/>
+                         Clicked="btnporta_Clicked_1"/>
 
 
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" 

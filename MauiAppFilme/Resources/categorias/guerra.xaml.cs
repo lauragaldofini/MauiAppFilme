@@ -6,4 +6,24 @@ public partial class guerra : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void btnultimohomem_Clicked(System.Object sender, System.EventArgs e)
+    {
+
+    }
+
+    private void btnbelodesastre_Clicked(System.Object sender, System.EventArgs e)
+    {
+
+    }
+
+    private void btntodosmenosvoce_Clicked(System.Object sender, System.EventArgs e)
+    {
+
+    }
+
+    private void btnportoseguro_Clicked(System.Object sender, System.EventArgs e)
+    {
+
+    }
 }

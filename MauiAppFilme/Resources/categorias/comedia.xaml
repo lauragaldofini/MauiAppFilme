@@ -11,7 +11,7 @@
 
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" 
                          Source="branquelas.jpg" x:Name="btnasbranquelas"
-                         Clicked="btnasbranquelas_Clicked"/>
+                         Clicked="btnasbranquelas_Clicked_1"/>
 
 
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" 

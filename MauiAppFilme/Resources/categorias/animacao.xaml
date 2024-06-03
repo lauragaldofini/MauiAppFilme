@@ -12,7 +12,7 @@
 
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" 
                          Source="alice.jpg" x:Name="btnalicepaisdasmaravilhas"
-                         Clicked="btnalicepaisdasmaravilhas_Clicked"/>
+                         Clicked="btnalicepaisdasmaravilhas_Clicked_1"/>
 
 
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" 
@@ -27,7 +27,7 @@
 
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" 
                          Source="reilao.jpg" x:Name="btnreileao"
-                         Clicked="btnreileao_Clicked"/>
+                         Clicked="btnreileao_Clicked_1"/>
             </Grid>
         </ScrollView>
     </VerticalStackLayout>

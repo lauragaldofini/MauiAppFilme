@@ -6,4 +6,24 @@ public partial class ficcaocientifica : ContentView
 	{
 		InitializeComponent();
 	}
+
+    private void bntnvingadores_Clicked(System.Object sender, System.EventArgs e)
+    {
+
+    }
+
+    private void btnstarwars_Clicked(System.Object sender, System.EventArgs e)
+    {
+
+    }
+
+    private void btnexpanse_Clicked(System.Object sender, System.EventArgs e)
+    {
+
+    }
+
+    private void btnavatar_Clicked(System.Object sender, System.EventArgs e)
+    {
+
+    }
 }

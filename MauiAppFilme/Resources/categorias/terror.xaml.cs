@@ -6,4 +6,24 @@ public partial class terror : ContentView
 	{
 		InitializeComponent();
 	}
+
+    private void btninvocacaodomal_Clicked(System.Object sender, System.EventArgs e)
+    {
+
+    }
+
+    private void btninvocacaodomal2_Clicked(System.Object sender, System.EventArgs e)
+    {
+
+    }
+
+    private void btninvocacaodomal3_Clicked(System.Object sender, System.EventArgs e)
+    {
+
+    }
+
+    private void btnafreira_Clicked(System.Object sender, System.EventArgs e)
+    {
+
+    }
 }

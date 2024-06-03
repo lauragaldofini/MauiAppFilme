@@ -10,7 +10,7 @@
 
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" 
                          Source="vingadores.jpg" x:Name="bntnvingadores"
-                         Clicked="btnvingadores_Clicked"/>
+                         Clicked="bntnvingadores_Clicked"/>
 
 
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" 

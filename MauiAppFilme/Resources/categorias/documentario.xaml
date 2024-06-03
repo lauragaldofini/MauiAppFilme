@@ -1,7 +1,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiAppFilme.Resources.categorias.suspense"
-             Title="suspense">
+             x:Class="MauiAppFilme.Resources.categorias.documentario"
+             Title="documentario">
     <VerticalStackLayout>
     <ScrollView>
         <Grid RowDefinitions="300, 300, 300"
@@ -10,7 +10,7 @@
 
             <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" 
                          Source="carandiru.jpg" x:Name="btncarandiru"
-                         Clicked="btncarandiru_Clicked"/>
+                         Clicked="btncarandiru_Clicked_1"/>
 
 
             <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" 
